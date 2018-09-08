@@ -1,0 +1,342 @@
+/*
+ * GalaxyAnvil Panel  - A theme for WorldAnvil's Backend Panel, created by SierraKomodo
+ * Version DEVBUILD
+ * https://github.com/SierraKomodo/worldanvil-templates/tree/GalaxyAnvil
+ */
+
+/* FONTS */
+@font-face {
+    font-family: Mina;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/mina/v1/-nFzOGc18vARnzhp7w.woff2);
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: IBM Plex Sans Condensed;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/ibmplexsanscondensed/v2/Gg8lN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHYapyK4.woff2);
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* LAYOUT - HTML */
+.user-css-panel {
+    font-size: 14px;
+}
+
+.user-css-panel a {
+    font-weight: bold;
+}
+
+.user-css-panel b {
+    font-weight: bold;
+}
+
+.user-css-panel h1 {
+    font-size: 42px;
+    font-family: Mina, serif;
+}
+
+.user-css-panel h2 {
+    font-size: 30px;
+    font-family: Mina, serif;
+    border-bottom: 1px solid;
+    font-weight: 100;
+    margin-top: 25px;
+}
+
+.user-css-panel h3 {
+    font-family: Mina, serif;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    border-bottom: 1px solid;
+}
+
+.user-css-panel h4 {
+    font-family: Mina, serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.user-css-panel h5 {
+    font-family: Mina, serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.user-css-panel h6 {
+    font-family: Mina, serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.user-css-panel img {
+    border-radius: 5px;
+}
+
+.user-css-panel p {
+    font-weight: normal;
+    line-height: 1.4em;
+}
+
+.user-css-panel textarea, .user-css-panel input {
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+/* LAYOUT - BOOTSTRAP */
+.user-css-presentation .alert {
+    border-radius: 4px;
+    border: none;
+    border-left: 34px solid;
+    font-size: 13px;
+    padding: 5px 10px;
+    padding-left: 10px;
+    text-align: justify;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    min-height: 70px;
+}
+
+.user-css-panel .card-box {
+    background-image: none;
+    font-family: IBM Plex Sans Condensed, sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+
+/* LAYOUT - WORLDANVIL */
+.user-css-panel .page-title-box {
+	/* height: 42px; */
+}
+
+.user-css-panel h4.page-title {
+	font-size: 42px;
+    font-family: Mina, serif;
+}
+
+
+/* THEME - HTML */
+.user-css-panel {
+    color: var(--defaultDMuted);
+}
+
+.user-css-panel a {
+    color: var(--primaryD);
+}
+
+.user-css-panel a:hover {
+    color: var(--primaryDMuted);
+}
+
+.user-css-panel h1 {
+    color: var(--primaryA);
+    background: linear-gradient(var(--defaultA), var(--primaryA), var(--accentA));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.user-css-panel h2 {
+    color: var(--primaryA);
+}
+
+.user-css-panel h3 {
+    color: var(--midPrimaryAccentA);
+}
+
+.user-css-panel h4 {
+    color: var(--accentA);
+}
+
+.user-css-panel h5 {
+    color: var(--midDefaultAccentA);
+}
+
+.user-css-panel h6 {
+    color: var(--defaultA);
+}
+
+.user-css-panel textarea, .user-css-panel input {
+    background-color: var(--accent5Transparent);
+    color: var(--accentDMuted);
+    box-shadow: 0 0 2px 2px var(--accent5Transparent);
+}
+
+.user-css-panel textarea:focus, .user-css-panel input:focus {
+    box-shadow: 0 0 2px 2px var(--accentATransparent);
+}
+
+/* THEME - BOOTSTRAP */
+.user-css-panel .card-box {
+    background-color: var(--default3Transparent);
+    box-shadow: 0 0 11px 2px var(--default3Transparent);
+}
+
+/* THEME - WORLDANVIL */
+.user-css-panel h4.page-title {
+    color: var(--primaryA);
+    background: linear-gradient(var(--defaultA), var(--primaryA), var(--accentA));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Color Theme: Default (WA public) */
+.user-css-panel {
+    /* Default Color: Yellow-Green (Hue 65) */
+    --default1: #1D1E0F;
+    --default2: #2F3020;
+    --default3: #414233;
+    --default4: #505142;
+    --default5: #626354;
+    --default6: #747566;
+    --default7: #838476;
+    --default8: #959687;
+    --default9: #A7A899;
+    --defaultA: #B6B7A8;
+    --defaultB: #C8C9BB;
+    --defaultC: #DADBCB;
+    --defaultD: #E9EADC;
+    --defaultE: #FBFCED;
+
+    --default1Muted: #1D1E0F;
+    --default2Muted: #2F3020;
+    --default3Muted: #414233;
+    --default4Muted: #505142;
+    --default5Muted: #626354;
+    --default6Muted: #747566;
+    --default7Muted: #838476;
+    --default8Muted: #959687;
+    --default9Muted: #A7A899;
+    --defaultAMuted: #B6B7A8;
+    --defaultBMuted: #C8C9BB;
+    --defaultCMuted: #DADBCB;
+    --defaultDMuted: #E9EADC;
+    --defaultEMuted: #FBFCED;
+
+    --default1Transparent: rgba(29, 30, 15, 0.5);
+    --default2Transparent: rgba(47, 48, 32, 0.5);
+    --default3Transparent: rgba(65, 66, 51, 0.5);
+    --default4Transparent: rgba(80, 81, 66, 0.5);
+    --default5Transparent: rgba(98, 99, 84, 0.5);
+    --default6Transparent: rgba(116, 117, 102, 0.5);
+    --default7Transparent: rgba(131, 132, 118, 0.5);
+    --default8Transparent: rgba(149, 150, 135, 0.5);
+    --default9Transparent: rgba(167, 168, 153, 0.5);
+    --defaultATransparent: rgba(182, 183, 168, 0.5);
+    --defaultBTransparent: rgba(200, 201, 187, 0.5);
+    --defaultCTransparent: rgba(218, 219, 203, 0.5);
+    --defaultDTransparent: rgba(233, 234, 220, 0.5);
+    --defaultETransparent: rgba(251, 252, 237, 0.5);
+
+    /* Primary Color: Red-Orange (Hue 10, Sat 100) */
+    --primary1: #1C0500;
+    --primary2: #2D0800;
+    --primary3: #3F0700;
+    --primary4: #4F0900;
+    --primary5: #601300;
+    --primary6: #720D00;
+    --primary7: #821100;
+    --primary8: #931100;
+    --primary9: #A51300;
+    --primaryA: #B52100;
+    --primaryB: #C61A00;
+    --primaryC: #D82700;
+    --primaryD: #E52200;
+    --primaryE: #F91D00;
+
+    --primary1Muted: #1E120F;
+    --primary2Muted: #302320;
+    --primary3Muted: #423533;
+    --primary4Muted: #514442;
+    --primary5Muted: #635754;
+    --primary6Muted: #756866;
+    --primary7Muted: #847876;
+    --primary8Muted: #968987;
+    --primary9Muted: #A89B99;
+    --primaryAMuted: #B7ABA8;
+    --primaryBMuted: #C9BDBB;
+    --primaryCMuted: #DBCECB;
+    --primaryDMuted: #E8DEDC;
+    --primaryEMuted: #FCEFED;
+
+    --primary1Transparent: rgba(28, 5, 0, 0.5);
+    --primary2Transparent: rgba(45, 8, 0, 0.5);
+    --primary3Transparent: rgba(63, 7, 0, 0.5);
+    --primary4Transparent: rgba(79, 9, 0, 0.5);
+    --primary5Transparent: rgba(96, 19, 0, 0.5);
+    --primary6Transparent: rgba(114, 13, 0, 0.5);
+    --primary7Transparent: rgba(130, 17, 0, 0.5);
+    --primary8Transparent: rgba(147, 17, 0, 0.5);
+    --primary9Transparent: rgba(165, 19, 0, 0.5);
+    --primaryATransparent: rgba(181, 33, 0, 0.5);
+    --primaryBTransparent: rgba(198, 26, 0, 0.5);
+    --primaryCTransparent: rgba(219, 39, 0, 0.5);
+    --primaryDTransparent: rgba(229, 34, 0, 0.5);
+    --primaryETransparent: rgba(249, 29, 0, 0.5);
+
+    /* Accent Color: Teal (Hue 186) */
+    --accent1: #0F1D1E;
+    --accent2: #202F30;
+    --accent3: #334142;
+    --accent4: #425051;
+    --accent5: #546263;
+    --accent6: #667475;
+    --accent7: #768384;
+    --accent8: #879596;
+    --accent9: #99A7A8;
+    --accentA: #A8B6B7;
+    --accentB: #BBC8C9;
+    --accentC: #CBDADB;
+    --accentD: #DCE9EA;
+    --accentE: #EDFBFC;
+
+    --accent1Muted: #0F1D1E;
+    --accent2Muted: #202F30;
+    --accent3Muted: #334142;
+    --accent4Muted: #425051;
+    --accent5Muted: #546263;
+    --accent6Muted: #667475;
+    --accent7Muted: #768384;
+    --accent8Muted: #879596;
+    --accent9Muted: #99A7A8;
+    --accentAMuted: #A8B6B7;
+    --accentBMuted: #BBC8C9;
+    --accentCMuted: #CBDADB;
+    --accentDMuted: #DCE9EA;
+    --accentEMuted: #EDFBFC;
+
+    --accent1Transparent: rgba(15, 29, 30, 0.5);
+    --accent2Transparent: rgba(32, 47, 48, 0.5);
+    --accent3Transparent: rgba(51, 65, 66, 0.5);
+    --accent4Transparent: rgba(66, 80, 81, 0.5);
+    --accent5Transparent: rgba(84, 98, 99, 0.5);
+    --accent6Transparent: rgba(102, 116, 117, 0.5);
+    --accent7Transparent: rgba(118, 131, 132, 0.5);
+    --accent8Transparent: rgba(135, 149, 150, 0.5);
+    --accent9Transparent: rgba(153, 167, 168, 0.5);
+    --accentATransparent: rgba(168, 182, 183, 0.5);
+    --accentBTransparent: rgba(187, 200, 201, 0.5);
+    --accentCTransparent: rgba(203, 218, 219, 0.5);
+    --accentDTransparent: rgba(220, 233, 234, 0.5);
+    --accentETransparent: rgba(237, 251, 252, 0.5);
+
+    /* Specialty Colors */
+    --midPrimaryAccentA: #AF6C5C; /* Used for h3 */
+    --midPrimaryAccent8: #8D534B; /* Used for h3 small */
+    --midDefaultAccentA: #AFB7B0; /* Used for h5 */
+    --midDefaultAccent8: #9FA69F; /* Used for h5 small */
+    --defaultAFullTransparent: rgba(182, 183, 168, 0); /* Used for row border groups */
+}
